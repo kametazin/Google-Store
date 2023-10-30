@@ -1,0 +1,242 @@
+:root {
+    --main-lgray:#F8F9FA;
+    --main-gray:#57626B;
+    --main-black:#353A49;
+    --main-blue:#1A73E8;
+}
+
+body {
+    font-family:Inter, sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 49px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--main-black);
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--main-black);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14.5px;
+    color: var(--main-gray);
+    font-weight: 600;
+}
+
+li {
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 14.4px;
+    color: var(--main-black);
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+header {
+    width:100%;
+    display: inline-block;
+    padding-left:10px;
+    margin-bottom:10px;
+}
+    ul.nav1 {
+        display: inline-block;
+        float:none;
+    }
+    ul.nav1 li{
+        display: inline;
+        margin-top:20px;
+        padding-top: 25px;
+        margin-right:18px;
+    }
+    
+    ul.nav2 {
+        margin: 12px 0 0 0;
+        padding: 0px;
+        display: inline;
+        float: inline-end;
+        margin-right:20px;
+        vertical-align: middle;
+    }
+    ul.nav2 li{
+        display: inline-block;
+        margin: 0 0 0 23px;
+        padding: 0px;
+    }
+    a {
+        color:var(--main-gray);
+        text-decoration: none;
+    }
+
+    #logo {
+        height:40px;
+        padding:0;
+        margin:7px 0 0 20px;
+        float:left;
+    }
+    div.title {
+        display: flex;
+        align-items: center;
+        padding: 0 auto;
+        margin-left: 20px;
+    }
+    p.see {
+        display:inline;
+        margin:0 10px;
+        font-weight: 600;
+    }
+    div.title span{
+        margin:0;
+        color:var(--main-black);
+        font-weight: 600;
+    }
+
+    div.back {
+        background-color: var(--main-lgray);
+        border-radius: 42px;
+        width:60%;
+        height:66.667%;
+        float:left;
+        margin-right:30px;
+    }
+
+    #bigimg {
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        filter: drop-shadow(-18px 13px 17px #b5b5b5);
+    }
+
+    div.side {
+        margin-right: 100px;
+        float:right;
+        width:460px;
+        padding-top: 0;
+    }
+    #price {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top:10px;
+        margin-bottom: 20px;
+    }
+
+    .divider {
+        border-bottom: 2px solid var(--main-black);
+        width:440px;
+        margin:0 auto;
+        padding-top:0;
+        }
+
+    div.miniForm {
+        display: inline-block;
+        
+    }
+
+    div.mini {
+        display: inline-block;
+        border: 1px solid var(--main-gray);
+        border-radius: 7%;
+        height:126.72px;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    div.mini p {
+        font-weight: 600;
+    }
+
+    div.mini img{
+        width:78px;
+        margin: auto  30px -10px 30px;
+    }
+
+    div.order {
+        background-color: var(--main-lgray);
+    }
+
+    select {
+        margin-top:15px;
+        margin-right: 10px;
+        height:56px;
+        width: 84px;
+        border-radius: 7px;
+        border: 0.5px solid var(--main-black);
+        text-align: center;
+    }
+
+    #button {
+        background-color: var(--main-blue);
+        color: #ffffff;
+        font-weight: 600;
+        border: 0.5px solid var(--main-black);
+        border-radius: 7px;
+        height:56px;
+        width: 312.5px;
+    }
+
+    .info {
+        display: inline;
+    }
+
+    div.info p{
+        display: inline-block;
+        color: var(--main-gray);
+        font-weight: 600;
+        padding-left: 11.5px;
+    }
+
+    #truck {
+        margin:0;
+        color:var(--main-gray);
+        vertical-align: middle;
+    }
+
+    #blues {
+        color: var(--main-blue);
+    }
+
+    footer {
+        display: inline-block;
+        margin-bottom: 0;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    div.networks {
+        align-self: center;
+    }
+
+    div.networks img {
+        padding-right:8px;
+    }
+
+    ul.foot {
+        display: inline-block;
+    }
+    ul.foot li {
+        display: inline;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--main-gray);
+        padding-right: 8px;
+    }
+
+    #esp {
+        vertical-align: middle;
+        padding-right: 10px;
+    }
